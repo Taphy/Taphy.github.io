@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Messages>
+
+<!-- common error -->
+<Message Key='COMMON_ERROR_M0001' Value='The domain name you used have no permission to enter Casino. Please call Customer Service for more info. Thank you.' />
+
+<!-- for loading -->
+<Message Key='LOADING_M0001' Value='Loading game data {0}' />
+
+<Message Key='LOADING_ERR_M0001' Value='Game loading failed. Please close the window and re-enter the game again.' /> <!--{0}:Error Msg-->
+
+<!-- for lobby -->
+<Message Key='LOBBY_M0001' Value='Another Game Lobby is already being opened, please close your window.' />
+<Message Key='LOBBY_M0101' Value='Unable to play Mini Game and Casino at the same time. Please click "Yes" to close the Mini Game.' />
+<Message Key='LOBBY_M0102' Value='Please wait. Loading now.' />
+<Message Key='LOBBY_M0002' Value='Dear Customer, effective from 1st March 2010. Min betting limit for Baccarat, No Comm. Baccarat, Blackjack, Blackjack with Perfect Pair and Dragon Tiger will changed from $1-$100 to $5-$100; Thailand Baht will changed from $10-$1000 to $50-$1000; Indonesia Rupiah will changed from $3-$300 to $15-$300.  Thanks!' />
+<Message Key='LOBBY_M0003' Value='Hi! {0}' />
+<Message Key='LOBBY_M0004' Value='Do you want to transfer your balance back?' />
+<Message Key='LOBBY_M0005' Value='Insufficient Balance. Please use [Cashier] to transfer balance from Sports to Casino.' />
+<Message Key='LOBBY_M0006' Value='Thank you for playing!' />
+
+<!-- for web request -->
+<Message Key='WEB_REQ_M0001' Value='You do not have permissions to play Casino. Please contact your agent. Thanks.' />
+<Message Key='WEB_REQ_M0002' Value='Get UserkeyURL fail!\nPlease click [Close] to close window.' />
+<Message Key='WEB_REQ_M0003' Value='Can&apos;t connect to web server.' />
+<Message Key='WEB_REQ_M0004' Value='Authentication failed.' />
+
+<!-- for socket -->
+<Message Key='SOCKET_M0001' Value='Connecting to game server. Please wait a moment.' />
+<Message Key='SOCKET_M0002' Value='Connect to game server successfully.' />
+<Message Key='SOCKET_M0003' Value='Can&apos;t connect to game server.' />
+<Message Key='SOCKET_M0004' Value='Server disconnected!\nPlease close your window.' />
+<Message Key='SOCKET_M0005' Value='Connection failed, please try to connect again.' />
+<Message Key='SOCKET_M0006' Value='Server disconnected!\nPlease click [Close] to close window.' />
+<Message Key='SOCKET_M0007' Value='Login fail.[{0}]' />
+<Message Key='SOCKET_M0008' Value='Game client loading timeout. Kindly check your network.' />
+<Message Key='SOCKET_M0009' Value='Server data processing error.\nPlease click [Close] to close window.' />
+<Message Key='SOCKET_M0010' Value='Game over!!\nPlease click [Close] to close window.' />
+<Message Key='SOCKET_M0011' Value='Insufficient Balance. Please use [Cashier] to transfer balance from Sports to Casino.' />
+<Message Key='SOCKET_M0012' Value='Please clear your browser cache & cookies then re-enter casino for latest client version.' />
+
+<!-- for socket(game table) -->
+<Message Key='SOCKET_M0103' Value='Can&apos;t connecct to game server.\nPlease click [Close] to close window.' />
+<!--<Message Key='SOCKET_M0107' Value='Login failed.\nPlease click [Close] to close window.' />-->
+
+<!-- for lobby-table sync manager -->
+<Message Key='LOBBY_TABLE_SYN_M0001' Value='Internal error occurred!(LTSM_0001)\nPlease click [Close] to close window.' /><!-- LC Name Duplicate -->
+<Message Key='LOBBY_TABLE_SYN_M0002' Value='Internal error occurred!(LTSM_0002)\nPlease click [Close] to close window.' /><!-- LC Sending Error -->
+<Message Key='LOBBY_TABLE_SYN_M0003' Value='Game lobby disconnected!\nPlease click [Close] to close window.' />
+
+<!-- for popup transfer -->
+<Message Key='TRANSFER_M0001' Value='Please input the balance you want to transfer.' />
+<Message Key='TRANSFER_M0002' Value='Please input the amount greater than zero.' />
+<Message Key='TRANSFER_M0003' Value='Transfer amount can&apos;t be greater than {0}.' />
+<Message Key='TRANSFER_M0004' Value='Balance transfer successfully.' />
+<Message Key='TRANSFER_M0005' Value='Balance transfer failed. ({0})' />
+<Message Key='TRANSFER_M0006' Value='You have reached your maximum transfer limit for the day. Please contact your agent to allow you to transfer more.' />
+
+<!-- for popup change password -->
+<Message Key='CHANGE_PW_M0001' Value='Current Password is required!' />
+<Message Key='CHANGE_PW_M0002' Value='New Password is required!' />
+<Message Key='CHANGE_PW_M0003' Value='Confirm Password is required!' />
+<Message Key='CHANGE_PW_M0004' Value='Please check Confirm Password.' />
+<Message Key='CHANGE_PW_M0005' Value='Your password is not correct.' />
+
+<!-- for popup idel alert -->
+<Message Key='IDLE_ALERT_M0001' Value='Do you want to continue?\nOr your game will be terminated.' />
+
+<!-- for broken game -->
+<Message Key='BROKEN_GAME_M0001' Value='You have unfinished game:\n{0}\nPlease finish it first.' Attr='[outdated]' />
+<Message Key='BROKEN_GAME_M0002' Value='You have unfinished games:\n{0}\nPlease finish them first.' Attr='[outdated]' />
+<Message Key='BROKEN_GAME_M0003' Value='You may now finish your game.\nGood luck.' />
+
+<!-- for bet limit -->
+<Message Key='BET_M0001' Value='0' /><!-- min=0 -->
+<Message Key='BET_M0002' Value='Unlimited' /><!-- max=0 -->
+<Message Key='BET_M0003' Value='Please place your bet to begin the playing.' />
+<Message Key='BET_M0004' Value='The minimum allowed bet is {0}.\nPlease place a larger bet and try again.' />
+<Message Key='BET_M0005' Value='The maximum allowed bet is {0}.' />
+<Message Key='BET_M0006' Value='Insufficient Balance.\nPlease place a lower bet.' />
+<Message Key='BET_M0007' Value='Dealing' />
+<Message Key='BET_M0008' Value='Min:{0} Max:{1}' />
+<Message Key='BET_M0009' Value='Bet:{0}' />
+<Message Key='BET_M0010' Value='Last Bet:{0}' />
+<Message Key='BET_M0011' Value='Rolling' />
+<Message Key='BET_M0012' Value='Insufficient Balance. Please use [Cashier] to transfer balance from Sports to Casino.' />
+<Message Key='BET_M0013' Value='You have no betting limit setting for this game. Please contact your agent to setup betting limit.' />
+<Message Key='BET_M0014' Value='Reach maximum allowed bet.' /><!--for bet area-->
+<Message Key='BET_M0015' Value='Max bet allowed for this betting area is {0}, continue?' />
+<Message Key='BET_M0016' Value='Max bet allowed for this table is {0}, you can only bet for another {1}, continue?' />
+<Message Key='BET_M0017' Value='Your current balance is {0}, continue?' />
+<Message Key='BET_M0018' Value='Insufficient minimum allowed bet.\n{0}'></Message>
+<Message Key='BET_M0019' Value='The minimum allowed bet is {0}.'></Message>
+<Message Key='BET_M0020' Value='Reach maximum allowed bet.' /><!--for table-->
+<Message Key='BET_M0021' Value='Insufficient balance, please go to lobby&apos;s cashier to transfer more credit.' />
+
+<!-- for sound manager -->
+<Message Key='SOUND_MGR_M0001' Value='Internal error occurred!(SM_0001)\nIt will not has voice sound.' /><!-- io error -->
+<Message Key='SOUND_MGR_M0002' Value='Internal error occurred!(SM_0002)\nIt will not has voice sound.' /><!-- security error -->
+
+<!-- for slot game -->
+<Message Key='SLOT_WIN_M0000' Value='Congratulations! You win {0}!' />
+<Message Key='SLOT_WIN_M0001' Value='Line {0}: {1}' />
+<Message Key='SLOT_LOADING_M0001' Value='Loading animation.' />
+<Message Key='SLOT_ROLLINGREEL_M0001' Value='You have reached the maximum rolling times.' />
+<Message Key='SLOT_AUTOPLAY_M0001' Value='Auto spin amount reached.' />
+
+</Messages>
