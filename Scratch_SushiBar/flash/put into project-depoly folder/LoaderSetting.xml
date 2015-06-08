@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Setting>
+	<Param name="CoreLibSwfUrl" value="./flash/CasinoCoreLibSwf_20120524.swf" />
+</Setting>

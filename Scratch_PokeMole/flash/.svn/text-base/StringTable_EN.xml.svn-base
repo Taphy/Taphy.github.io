@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Messages>
+
+<!-- common error -->
+<Message Key='COMMON_ERROR_M0001' Value='The domain name you used have no permission to enter Casino. Please call Customer Service for more info. Thank you.' />
+
+<!-- for loading -->
+<Message Key='LOADING_M0001' Value='Loading game data {0}' />
+
+<Message Key='LOADING_ERR_M0001' Value='Game loading failed. Please close the window and re-enter the game again.' /> <!--{0}:Error Msg-->
+
+<!-- for web request -->
+<Message Key='WEB_REQ_M0001' Value='Game client loading timeout. Kindly check your network.' />
+<Message Key='WEB_REQ_M0002' Value='Get UserkeyURL fail!\nPlease click [Close] to close window.' />
+<Message Key='WEB_REQ_M0003' Value='Can&apos;t connect to web server.' />
+<Message Key='WEB_REQ_M0004' Value='Authentication failed.' />
+
+<!-- for socket -->
+<Message Key='SOCKET_M0001' Value='Connecting to game server. Please wait a moment.' />
+<Message Key='SOCKET_M0002' Value='Connect to game server successfully.' />
+<Message Key='SOCKET_M0003' Value='Can&apos;t connect to game server.' />
+<Message Key='SOCKET_M0004' Value='Server disconnected!\nPlease close your window.' />
+<Message Key='SOCKET_M0005' Value='Connection failed, please try to connect again.' />
+<Message Key='SOCKET_M0006' Value='Server disconnected!\nPlease click [Close] to close window.' />
+<Message Key='SOCKET_M0007' Value='Login fail.[{0}]' />
+<Message Key='SOCKET_M0007_E1000' Value='[E1000] Authentication failed! Please contact customer support.' />
+<Message Key='SOCKET_M0007_E1002' Value='[E1002] Authentication failed! Please contact customer support.' />
+<Message Key='SOCKET_M0007_E1003' Value='[E1003] Access denied! Please refers to superior.' />
+<Message Key='SOCKET_M0007_E1004' Value='[E1004] Access denied! Please refers to superior.' />
+<Message Key='SOCKET_M0007_E1005' Value='[E1005] Account yet to enable! Please refers to superior.' />
+<Message Key='SOCKET_M0007_E1006' Value='[E1006] Access denied! Please refers to superior.' />
+<Message Key='SOCKET_M0007_E1008' Value='[E1008] Kindly complete your broken game(s) in Mini Game.' />
+<Message Key='SOCKET_M0007_E1009' Value='[E1009] Authentication failed! Please contact customer support.' />
+<Message Key='SOCKET_M0008' Value='Game client loading timeout. Kindly check your network.' />
+<Message Key='SOCKET_M0009' Value='Server data processing error.\nPlease click [Close] to close window.' />
+<Message Key='SOCKET_M0010' Value='Game over!!\nPlease click [Close] to close window.' />
+<Message Key='SOCKET_M0011' Value='Insufficient Balance. Please use [Cashier] to transfer balance from Sports to Casino.' />
+<Message Key='SOCKET_M0012' Value='Please clear your browser cache &amp; cookies then re-enter casino for latest client version.' />
+
+<!-- for socket(game table) -->
+<Message Key='SOCKET_M0103' Value='Can&apos;t connecct to game server.\nPlease click [Close] to close window.' />
+<!--<Message Key='SOCKET_M0107' Value='Login failed.\nPlease click [Close] to close window.' />-->
+
+<!-- for lobby-table sync manager -->
+<Message Key='LOBBY_TABLE_SYN_M0001' Value='[LTSM0001] Server disconnected!\nPlease close your window.' /><!-- LC Name Duplicate -->
+<Message Key='LOBBY_TABLE_SYN_M0002' Value='[LTSM0002] Server disconnected!\nPlease close your window.' /><!-- LC Sending Error -->
+<Message Key='LOBBY_TABLE_SYN_M0003' Value='Game lobby disconnected!\nPlease click [Close] to close window.' />
+
+<!-- for popup idel alert -->
+<Message Key='IDLE_ALERT_M0001' Value='Do you want to continue?\nOr your game will be terminated.' />
+
+<!-- for bet limit -->
+<Message Key='BET_M0001' Value='0' /><!-- min=0 -->
+<Message Key='BET_M0002' Value='Unlimited' /><!-- max=0 -->
+<Message Key='BET_M0003' Value='Please place your bet to begin the playing.' />
+<Message Key='BET_M0004' Value='The minimum allowed bet is {0}.\nPlease place a larger bet and try again.' />
+<Message Key='BET_M0005' Value='The maximum allowed bet is {0}.' />
+<Message Key='BET_M0006' Value='Insufficient Balance.\nPlease place a lower bet or add more credit.' />
+<Message Key='BET_M0007' Value='Dealing' />
+<Message Key='BET_M0008' Value='Min:{0} Max:{1}' />
+<Message Key='BET_M0009' Value='Bet:{0}' />
+<Message Key='BET_M0010' Value='Last Bet:{0}' />
+<Message Key='BET_M0011' Value='Rolling' />
+<Message Key='BET_M0012' Value='Insufficient Balance. Please use [Cashier] to transfer balance from Sports to Casino.' />
+<Message Key='BET_M0013' Value='You have no betting limit setting for this game. Please contact your agent to setup betting limit.' />
+<Message Key='BET_M0014' Value='Reach maximum allowed bet.' /><!--for bet area-->
+<Message Key='BET_M0015' Value='Max bet allowed for this betting area is {0}, continue?' />
+<Message Key='BET_M0016' Value='Max bet allowed for this table is {0}, you can only bet for another {1}, continue?' />
+<Message Key='BET_M0017' Value='Your current balance is {0}, continue?' />
+<Message Key='BET_M0018' Value='Insufficient minimum allowed bet.\n{0}'></Message>
+<Message Key='BET_M0019' Value='The minimum allowed bet is {0}.'></Message>
+<Message Key='BET_M0020' Value='Reach maximum allowed bet.' /><!--for table-->
+<Message Key='BET_M0021' Value='Insufficient balance, please go to lobby&apos;s cashier to transfer more credit.' />
+<Message Key='BET_M0022_HTML'><![CDATA[
+<p align='left'>
+Insufficient minimum allowed bet.<br>
+{0}<br>
+Please place a larger bet and try again.
+</p>
+]]></Message>
+<Message Key='BET_M0023_HTML_BETTYPE_LIMIT_MIN'><![CDATA[
+<span>The minimum allowed bet is {0}.</span><br>
+]]></Message>
+<Message Key='BET_M0024_HTML_TOTAL_LIMIT_MIN'><![CDATA[
+<span>The minimum allowed bet is {0}.</span><br>
+]]></Message>
+
+<!-- for slot game -->
+<Message Key='SLOT_WIN_M0000' Value='Congratulations! You win {0}!' />
+<Message Key='SLOT_WIN_M0001' Value='Line {0}: {1}' />
+<Message Key='SLOT_WIN_M0002' Value='Scatter: {0}' />
+<Message Key='SLOT_WIN_M0004' Value='Double Wild' />
+<Message Key='SLOT_WIN_M0005' Value='Free Spin' />
+<Message Key='SLOT_WIN_M0006' Value='Bonus Free Spin' />
+<Message Key='SLOT_WIN_M0007' Value='Bonus Game' />
+<Message Key='SLOT_WIN_M0008' Value='Jackpot: {0}' />
+<Message Key='SLOT_WIN_M0009' Value='Jackpot Game' />
+<Message Key='SLOT_WIN_M0010' Value='Side Game' />
+<Message Key='SLOT_WIN_M0011' Value='Bonus Game' />
+<Message Key='SLOT_LOADING_M0001' Value='Loading animation.' />
+<Message Key='SLOT_ROLLINGREEL_M0001' Value='You have reached the maximum rolling times.' />
+<Message Key='SLOT_AUTOPLAY_M0001' Value='Auto spin amount reached.' />
+<Message Key='SLOT_AUTOPLAY_M0002' Value='UNTIL BONUS' />
+
+</Messages>

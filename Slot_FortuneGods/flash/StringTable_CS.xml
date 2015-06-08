@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Messages>
+
+<!-- common error -->
+<Message Key='COMMON_ERROR_M0001' Value='您所在的网域目前不允许进入娱乐城，请与客服人员联络以获知更多详情，谢谢。' />
+
+<!-- for loading -->
+<Message Key='LOADING_M0001' Value='下载游戏资料 {0}' />
+
+<Message Key='LOADING_ERR_M0001' Value='网络异常，无法加载游戏动画，请关闭窗口并重试。' /> <!--{0}:Error Msg-->
+
+<!-- for web request -->
+<Message Key='WEB_REQ_M0001' Value='游戏载入逾时，请检测您的网速。' />
+<Message Key='WEB_REQ_M0002' Value='Get UserkeyURL fail!\n请点击按钮[关闭]来关闭您目前的窗口！' />
+<Message Key='WEB_REQ_M0003' Value='Can&apos;t connect to web server.' />
+<Message Key='WEB_REQ_M0004' Value='认证失败' />
+
+<!-- for socket -->
+<Message Key='SOCKET_M0001' Value='正在连接服务器，请稍等片刻！' />
+<Message Key='SOCKET_M0002' Value='已成功连接服务器！' />
+<Message Key='SOCKET_M0003' Value='连接服务器失败！' />
+<Message Key='SOCKET_M0004' Value='服务器已断线！请关闭您目前的窗口！' />
+<Message Key='SOCKET_M0005' Value='连接失败，请重试！' />
+<Message Key='SOCKET_M0006' Value='服务器已断线！请点击按钮[关闭]来关闭您目前的窗口！' />
+<Message Key='SOCKET_M0007' Value='登入失败。[{0}]' />
+<Message Key='SOCKET_M0007_E1000' Value='[E1000] 验证失败！请联系客服。' />
+<Message Key='SOCKET_M0007_E1002' Value='[E1002] 验证失败！请联系客服。' />
+<Message Key='SOCKET_M0007_E1003' Value='[E1003] 登入无效！请联系上线。' />
+<Message Key='SOCKET_M0007_E1004' Value='[E1004] 登入无效！请联系上线。' />
+<Message Key='SOCKET_M0007_E1005' Value='[E1005] 游戏账号未开启！请联系上线。' />
+<Message Key='SOCKET_M0007_E1006' Value='[E1006] 登入无效！请联系上线。' />
+<Message Key='SOCKET_M0007_E1008' Value='[E1008] 请先完成那些未完成的迷你游戏。' />
+<Message Key='SOCKET_M0007_E1009' Value='[E1009] 验证失败！请联系客服。' />
+<Message Key='SOCKET_M0008' Value='游戏载入逾时，请检测您的网速。' />
+<Message Key='SOCKET_M0009' Value='Server data processing error.\nPlease click [Close] to close window.' />
+<Message Key='SOCKET_M0010' Value='Game over!!\nPlease click [Close] to close window.' />
+<Message Key='SOCKET_M0011' Value='余额不足，请用 [$] 从体彩转移一些额度到娱乐城。' />
+<Message Key='SOCKET_M0012' Value='请清除您的浏览器历史数据后再重新登入娱乐场，以获得更新版。' />
+
+<!-- for socket(game table) -->
+<Message Key='SOCKET_M0103' Value='无法连接服务器，请点击按钮[关闭]来关闭您目前的窗口！' />
+<!--<Message Key='SOCKET_M0107' Value='登陆失败，请点击按钮[关闭]来关闭您目前的窗口！' />-->
+
+<!-- for lobby-table sync manager -->
+<Message Key='LOBBY_TABLE_SYN_M0001' Value='[LTSM0001] 服务器已断线！请关闭您目前的窗口！' /><!-- LC Name Duplicate -->
+<Message Key='LOBBY_TABLE_SYN_M0002' Value='[LTSM0002] 服务器已断线！请关闭您目前的窗口！' /><!-- LC Sending Error -->
+<Message Key='LOBBY_TABLE_SYN_M0003' Value='游戏大厅已断线，请点击按钮[关闭]来关闭您目前的窗口！' />
+
+<!-- for popup idel alert -->
+<Message Key='IDLE_ALERT_M0001' Value='请问您是否要继续？\n不然您的游戏将会被终止。' />
+
+<!-- for bet limit -->
+<Message Key='BET_M0001' Value='0' /><!-- min=0 -->
+<Message Key='BET_M0002' Value='无限制' /><!-- max=0 -->
+<Message Key='BET_M0003' Value='请下注来开始您的游戏' />
+<Message Key='BET_M0004' Value='允许的最小注额为{0}，\n请选择更高的赌注再试一次。' />
+<Message Key='BET_M0005' Value='允许的最大注额为{0}' />
+<Message Key='BET_M0006' Value='您的余额已不足！\n请选择更低的赌注或转移更多的信用额。' />
+<Message Key='BET_M0007' Value='开始发牌' />
+<Message Key='BET_M0008' Value='最低:{0} 最高:{1}' />
+<Message Key='BET_M0009' Value='赌注:{0}' />
+<Message Key='BET_M0010' Value='上次赌注:{0}' />
+<Message Key='BET_M0011' Value='滚动' />
+<Message Key='BET_M0012' Value='余额不足，请用 [$] 从体彩转移一些额度到娱乐城。' />
+<Message Key='BET_M0013' Value='你在本游戏没有设定任何投注限制，请联络你的代理替你设定投注限制。' />
+<Message Key='BET_M0014' Value='该下注区可用筹码已达上限。' /><!--for bet area-->
+<Message Key='BET_M0015' Value='此投注区所允许的最高赌注为{0}，要继续吗？' />
+<Message Key='BET_M0016' Value='此赌桌所允许的最高赌注为{0}，您只能再下注{1}，要继续吗？' />
+<Message Key='BET_M0017' Value='您的当前馀额为{0}，要继续吗？' />
+<Message Key='BET_M0018' Value='下列下注区的筹码面额不足。\n{0}'></Message>
+<Message Key='BET_M0019' Value='该下注区允许的最小注额为{0}。'></Message>
+<Message Key='BET_M0020' Value='此赌桌可用筹码已达上限。' /><!--for table-->
+<Message Key='BET_M0021' Value='馀额不足，请到游戏大厅的收银台转移更多的信用额。' />
+<Message Key='BET_M0022_HTML'><![CDATA[
+<p align='left'>
+下列下注区的筹码面额不足。<br>
+{0}<br>
+请选择更高的赌注再试一次。
+</p>
+]]></Message>
+<Message Key='BET_M0023_HTML_BETTYPE_LIMIT_MIN'><![CDATA[
+<span>该下注区允许的最小注额为{0}。</span><br>
+]]></Message>
+<Message Key='BET_M0024_HTML_TOTAL_LIMIT_MIN'><![CDATA[
+<span>此赌桌所允许的最小注额为{0}。</span><br>
+]]></Message>
+
+<!-- for slot game -->
+<Message Key='SLOT_WIN_M0000' Value='恭喜！您已获得奖金{0}！' />
+<Message Key='SLOT_WIN_M0001' Value='线 {0}: {1}' />
+<Message Key='SLOT_WIN_M0002' Value='分散图案: {0}' />
+<Message Key='SLOT_WIN_M0004' Value='Double Wild' />
+<Message Key='SLOT_WIN_M0005' Value='免费回合' />
+<Message Key='SLOT_WIN_M0006' Value='特别免费回合' />
+<Message Key='SLOT_WIN_M0007' Value='奖金回合' />
+<Message Key='SLOT_WIN_M0008' Value='Jackpot: {0}' />
+<Message Key='SLOT_WIN_M0009' Value='Jackpot Game' />
+<Message Key='SLOT_WIN_M0010' Value='附带游戏' />
+<Message Key='SLOT_WIN_M0011' Value='红利回合' />
+<Message Key='SLOT_LOADING_M0001' Value='画面正在下载中.' />
+<Message Key='SLOT_ROLLINGREEL_M0001' Value='您已经达到最高的旋转次数！' />
+<Message Key='SLOT_AUTOPLAY_M0001' Value='已达自动玩限额' />
+<Message Key='SLOT_AUTOPLAY_M0002' Value='开启红利时停止' />
+
+</Messages>

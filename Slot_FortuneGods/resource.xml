@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Messages>
+
+<Message Key='FM_STRING' Value='RNGChineseZodiac_{0}{1}.xml' />
+<Message Key='FM_STRING_VER' Value='' />
+
+<Message Key='FM_FREESPINMODE' Value='ChooseFreeSpinMode_{0}.swf' />
+<Message Key='FM_FREESPINMODE_VER' Value='' />
+
+<Message Key='FM_SPRAY_MONEY' Value='SprayMoney.swf' />
+
+<Message Key='FM_RESPINFISH' Value='RespinFish.swf' />
+
+<Message Key='WFT_FRAME' Value='frame{0}.swf' />
+<Message Key='WFT_FRAME_VER' Value='' />
+
+</Messages>

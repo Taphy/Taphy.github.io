@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Messages>
+	<Message Key='progressive_OK' Value='OK' />
+	<Message Key='progressive_Confirm' Value='Contact Us' />
+	<Message Key='Progressive_Congratulations' Value='Congratulations! \n You win\nthe' />
+	
+	<Message Key='Progressive_0001' Value='Loading...' />
+</Messages>

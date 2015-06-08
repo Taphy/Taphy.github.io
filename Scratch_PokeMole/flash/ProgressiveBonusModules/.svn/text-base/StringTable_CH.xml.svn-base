@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Messages>
+	<Message Key='progressive_OK' Value='確認' />
+	<Message Key='progressive_Confirm' Value='聯絡我們' />
+	<Message Key='Progressive_Congratulations' Value='恭喜！\n您贏了\n' />
+	
+	<Message Key='Progressive_0001' Value='讀取中...' />
+</Messages>
